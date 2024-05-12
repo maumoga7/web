@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    background-color: #212121;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none; 
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-transition: font-size 1s ease;
+     transition: font-size 1s ease;
+}
+
+nav ul li a:hover {
+    font-size: 28px;
+}
+
+
+.acerca {
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+    height: 645px;
+    background-color: #212121;
+    margin-bottom: 20px;
+}
+
+.acerca h2 {
+    color: #ffffff;
+}
+
+.acerca p {
+    margin-bottom: 20px;
+}
+
+.texto {
+    text-align: center;
+}
+
+@media (max-width: 780px) {
+    body {
+     background-color: black;
+    }
+ 
+ }
+
+ footer {
+    background-color: #212121;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}

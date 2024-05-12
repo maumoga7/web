@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    background-color: #212121;
+    color: #fff;
+    padding: 20px;
+}
+
+.ed {
+    font-size: x-large;
+}
+
+.nu {
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.link ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px; 
+}
+
+.link ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+.link ul li a {
+    color: #ffffff;
+    text-decoration: none; 
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-transition: font-size 1s ease;
+     transition: font-size 1s ease;
+}
+
+.link ul li a:hover {
+    font-size: 28px;
+}
+
+.link2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+    margin-left: 20px;    
+}
+
+.link2 ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+.link2 ul li a {
+    color: #ffffff;
+    text-decoration: none; 
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-transition: color 1s linear;
+    transition: color 1s linear;
+}
+
+.link2 ul li a:hover {
+color: yellow;
+}
+
+
+.boton {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: #555;
+}
+
+.productos {
+    border: 5px solid #686868;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    background-color: #212121;
+    margin-top: 20px;
+}
+
+.productos img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.productos .contenido {
+    color: rgb(255, 255, 255);
+}
+
+.producto h3 {
+    margin-top: 0;
+}
+
+.productos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.productos ul li {
+    margin-bottom: 5px;
+}
+
+.productos .boton {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.productos .boton:hover {
+    background-color: #555;
+}
+
+@media (max-width: 780px) {
+    body {
+     background-color: black;
+    }
+ 
+ }
+footer {
+    background-color: #212121;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
